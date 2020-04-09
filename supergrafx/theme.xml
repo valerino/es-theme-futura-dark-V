@@ -1,0 +1,55 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The PC Engine SuperGrafx is the successor system to the PC Engine, released two years prior. Originally known as the PC Engine 2 during production stages,[2] it was purported as a true 16-bit home console, featuring improved graphics and audio capabilities over its predecessor.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">
+			<maxSize>0.25 0.14</maxSize>
+		</image>		
+		<text name="system_name" extra="true">
+			<text>PC Engine Supergrafx</text>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1989 - 1994</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.17 0.030</pos>
+			<maxSize>0.25 0.145</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>SUPERGRAFX 1989 - 1994</text>			
+		</text>			
+	</view>		
+
+</theme>

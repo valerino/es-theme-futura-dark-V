@@ -1,0 +1,59 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Magnavox Odyssey2, also known as Philips Odyssey2, is a second generation home video game console that was released in 1978. It was sold in Europe as the Philips Videopac G7000, in Brazil as the Philips Odyssey and in Japan as Odyssey2.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">	
+			<pos>0.5 0.1</pos>
+			<maxSize>0.20 0.16</maxSize>	
+		</image>
+		<text name="system_name" extra="true">
+			<text>Videopac</text>
+			<pos>0.025 0.08</pos>			
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1978</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.14 0.05</pos>
+			<maxSize>0.22 0.19</maxSize>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Videopac 1978</text>
+			<pos>0.575 0.05</pos>			
+			<fontSize>0.04</fontSize>			
+		</text>				
+	</view>		
+
+</theme>

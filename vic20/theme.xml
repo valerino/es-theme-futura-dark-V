@@ -1,0 +1,55 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The VIC-20 (in Germany, VC-20, in Japan, VIC-1001) is an 8-bit home computer that was sold by Commodore Business Machines. The VIC-20 was announced in 1980, roughly three years after Commodore's first personal computer, the PET. The VIC-20 was the first computer of any description to sell one million units.</text>
+		</text>
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Commodore Vic20</text>
+			<pos>0.020 0.07</pos>	
+			<size>0.25 0</size>			
+			<alignment>center</alignment>	
+			<lineSpacing>1</lineSpacing>			
+		</text>				
+		<text name="system_year" extra="true">
+			<text>1982</text>
+		</text>	
+	</view>	
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.04</pos>
+		</image>	
+		<text name="system_name_year" extra="true">
+			<text>VIC20 1982</text>			
+		</text>				
+	</view>	
+	
+</theme>

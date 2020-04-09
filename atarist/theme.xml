@@ -1,0 +1,50 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Atari ST is part of a mid-1980s generation of home computers that have 16 or 32-bit processors, 256 KB or more of RAM, and mouse-controlled graphical user interfaces. This generation includes the Macintosh, Amiga, Apple IIGS, and in some markets the Acorn Archimedes.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Atari-ST</text>
+			<pos>0.08 0.08</pos>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1985 - 1993</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<text name="system_name_year" extra="true">
+			<text>Atari-ST 1985 - 1993</text>
+			<pos>0.59 0.045</pos>
+		</text>				
+	</view>		
+
+</theme>
