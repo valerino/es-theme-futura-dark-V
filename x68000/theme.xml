@@ -1,0 +1,62 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The X68000 is a home computer created by Sharp Corporation, first released in 1987, sold only in Japan.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image> 
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<image name="logo">
+			<pos>0.5 0.09</pos>
+			<maxSize>0.22 0.12</maxSize>			
+		</image>	
+		<text name="system_name" extra="true">
+			<text>Sharp X68000</text>
+			<pos>0.025 0.07</pos>	
+			<size>0.25 0</size>				
+			<lineSpacing>1</lineSpacing>		
+		</text>					
+		<text name="system_year" extra="true">
+			<text>1987 - 1993</text>
+			<pos>0.745 0.08</pos>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.20 0.033</pos>
+			<maxSize>0.25 0.13</maxSize>			
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Sharp X68000 1987 - 1993</text>
+			<pos>0.55 0.055</pos>
+			<fontSize>0.035</fontSize>			
+		</text>				
+	</view>		
+
+</theme>
